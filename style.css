@@ -1,0 +1,36 @@
+.features {
+    border-collapse: collapse;
+    font-family: sans-serif;
+  }
+  
+  .features__cell {
+    max-width: 250px;
+    font-size: 0.9em;
+    font-weight: normal;
+    padding: 0.5em 1em;
+    color: #333333;
+    border: 1px solid #dddddd;
+    line-height: 1.4;
+  }
+  
+  .features__cell--bold {
+    font-weight: bold;
+  }
+  
+  .features__cell--shaded {
+    background: #eeeeee;
+  }
+  
+  .features__cell--large {
+    font-size: 1.25em;
+  }
+  
+  .features__cell--center {
+    text-align: center;
+  }
+  
+  .features__tick::after {
+    content: "\2714";
+    font-size: 1.5em;
+    color: green;
+  }
